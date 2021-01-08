@@ -34,7 +34,7 @@
     <div class="form-section">
       <div class="container">
         <div class="row d-flex">
-          <div class="col m6">
+          <div class="col m6  mx-auto">
             <div class="card">
               <form action="">
                 <div class="card-content">
@@ -46,8 +46,30 @@
                             class="autocomplete">
                     <label for="autocomplete-origin">Origin</label>
                   </div>
+                  <div class="input-field">
+                    <input
+                            type="text"
+                            id="autocomplete-destination"
+                            class="autocomplete">
+                    <label for="autocomplete-destination">destination</label>
+                  </div>
+                  <div class="input-field">
+                    <input type="text" class="datepicker" id="datepicker-depart">
+                    <label for="datepicker-depart">Depart date</label>
+                  </div>
+                  <div class="input-field">
+                    <input type="text" class="datepicker" id="datepicker-origin">
+                    <label for="datepicker-origin">Return date</label>
+                  </div>
                 </div>
-                <div class="card-actions"></div>
+                <div class="card-actions d-flex">
+                  <button class="btn waves-effect waves-light purple darken-3" type="submit" name="action">Search
+                    <i class="material-icons right">send</i>
+                  </button>
+                  <button class="btn waves-effect waves-light pink darken-3  ml-auto" type="reset" name="action">Reset
+                    <i class="material-icons right">cancel</i>
+                  </button>
+                </div>
               </form>
             </div>
           </div>
