@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8cde0e-ee1b-486e-a96e-94eced493533" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/views/currency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/views/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/lib/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/materialize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/services/apiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/services/apiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/store/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/store/location.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +85,18 @@
       <option name="presentableId" value="Default" />
       <updated>1609994110863</updated>
       <workItem from="1609994111917" duration="10611000" />
-      <workItem from="1610086879707" duration="7154000" />
+      <workItem from="1610086879707" duration="7972000" />
+      <workItem from="1610161926391" duration="4236000" />
+      <workItem from="1610250061274" duration="1491000" />
     </task>
+    <task id="LOCAL-00001" summary="made ui">
+      <created>1610103286824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610103286824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +112,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="made ui" />
   </component>
 </project>
