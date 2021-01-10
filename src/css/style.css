@@ -90,6 +90,7 @@
   padding: 5px;
   background: #6a1b9a;
   color: #fff;
+  border-radius: 3px;
 }
 
 .ticket-additional-info {
@@ -110,15 +111,24 @@
     width: 100% !important;
   }
   .ticket-city{
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .ticket-price{
-    font-size: 21px;
+    font-size: 21px !important;
   }
   .full-width-mob{
     width: 100%;
   }
   .header .brand-logo{
     position: absolute;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ticket-destination{
+    display: flex;
+    flex-wrap: wrap
+  }
+  .ticket-time-price{
+    margin-bottom: 10px;
   }
 }
